@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742164931CF47E82002D5D7D /* HighScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742164921CF47E82002D5D7D /* HighScoreController.m */; };
+		742164991CF59429002D5D7D /* HighScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 742164981CF59429002D5D7D /* HighScoreCell.m */; };
+		748F666F1CF0EAB800605C77 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F666E1CF0EAB800605C77 /* CollectionViewController.m */; };
+		748F66801CF20BFF00605C77 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F667F1CF20BFF00605C77 /* CollectionViewCell.m */; };
+		748F668B1CF3174800605C77 /* card_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66811CF3174800605C77 /* card_bg.png */; };
+		748F668C1CF3174800605C77 /* colour1.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66821CF3174800605C77 /* colour1.png */; };
+		748F668D1CF3174800605C77 /* colour2.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66831CF3174800605C77 /* colour2.png */; };
+		748F668E1CF3174800605C77 /* colour3.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66841CF3174800605C77 /* colour3.png */; };
+		748F668F1CF3174800605C77 /* colour4.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66851CF3174800605C77 /* colour4.png */; };
+		748F66901CF3174800605C77 /* colour5.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66861CF3174800605C77 /* colour5.png */; };
+		748F66911CF3174800605C77 /* colour6.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66871CF3174800605C77 /* colour6.png */; };
+		748F66921CF3174800605C77 /* colour7.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66881CF3174800605C77 /* colour7.png */; };
+		748F66931CF3174800605C77 /* colour8.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F66891CF3174800605C77 /* colour8.png */; };
+		748F66941CF3174800605C77 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 748F668A1CF3174800605C77 /* logo.png */; };
+		748F66971CF4540200605C77 /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F66961CF4540200605C77 /* CollectionHeaderView.m */; };
 		74D624091CF0C76F00ECAABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D624081CF0C76F00ECAABA /* main.m */; };
 		74D6240C1CF0C76F00ECAABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6240B1CF0C76F00ECAABA /* AppDelegate.m */; };
-		74D6240F1CF0C76F00ECAABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6240E1CF0C76F00ECAABA /* ViewController.m */; };
 		74D624121CF0C76F00ECAABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D624101CF0C76F00ECAABA /* Main.storyboard */; };
 		74D624141CF0C76F00ECAABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D624131CF0C76F00ECAABA /* Assets.xcassets */; };
 		74D624171CF0C76F00ECAABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D624151CF0C76F00ECAABA /* LaunchScreen.storyboard */; };
@@ -35,12 +49,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742164911CF47E82002D5D7D /* HighScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreController.h; sourceTree = "<group>"; };
+		742164921CF47E82002D5D7D /* HighScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreController.m; sourceTree = "<group>"; };
+		742164971CF59429002D5D7D /* HighScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoreCell.h; path = ../HighScoreCell.h; sourceTree = "<group>"; };
+		742164981CF59429002D5D7D /* HighScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoreCell.m; path = ../HighScoreCell.m; sourceTree = "<group>"; };
+		748F666D1CF0EAB800605C77 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		748F666E1CF0EAB800605C77 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		748F667E1CF20BFF00605C77 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		748F667F1CF20BFF00605C77 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		748F66811CF3174800605C77 /* card_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_bg.png; path = ../../../Downloads/iOS/card_bg.png; sourceTree = "<group>"; };
+		748F66821CF3174800605C77 /* colour1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour1.png; path = ../../../Downloads/iOS/colour1.png; sourceTree = "<group>"; };
+		748F66831CF3174800605C77 /* colour2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour2.png; path = ../../../Downloads/iOS/colour2.png; sourceTree = "<group>"; };
+		748F66841CF3174800605C77 /* colour3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour3.png; path = ../../../Downloads/iOS/colour3.png; sourceTree = "<group>"; };
+		748F66851CF3174800605C77 /* colour4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour4.png; path = ../../../Downloads/iOS/colour4.png; sourceTree = "<group>"; };
+		748F66861CF3174800605C77 /* colour5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour5.png; path = ../../../Downloads/iOS/colour5.png; sourceTree = "<group>"; };
+		748F66871CF3174800605C77 /* colour6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour6.png; path = ../../../Downloads/iOS/colour6.png; sourceTree = "<group>"; };
+		748F66881CF3174800605C77 /* colour7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour7.png; path = ../../../Downloads/iOS/colour7.png; sourceTree = "<group>"; };
+		748F66891CF3174800605C77 /* colour8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colour8.png; path = ../../../Downloads/iOS/colour8.png; sourceTree = "<group>"; };
+		748F668A1CF3174800605C77 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../Downloads/iOS/logo.png; sourceTree = "<group>"; };
+		748F66951CF4540200605C77 /* CollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionHeaderView.h; path = ../CollectionHeaderView.h; sourceTree = "<group>"; };
+		748F66961CF4540200605C77 /* CollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionHeaderView.m; path = ../CollectionHeaderView.m; sourceTree = "<group>"; };
 		74D624041CF0C76F00ECAABA /* Colour Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D624081CF0C76F00ECAABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74D6240A1CF0C76F00ECAABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74D6240B1CF0C76F00ECAABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74D6240D1CF0C76F00ECAABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74D6240E1CF0C76F00ECAABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74D624111CF0C76F00ECAABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74D624131CF0C76F00ECAABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D624161CF0C76F00ECAABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,10 +134,18 @@
 			isa = PBXGroup;
 			children = (
 				74D6240A1CF0C76F00ECAABA /* AppDelegate.h */,
+				748F66951CF4540200605C77 /* CollectionHeaderView.h */,
+				748F66961CF4540200605C77 /* CollectionHeaderView.m */,
 				74D6240B1CF0C76F00ECAABA /* AppDelegate.m */,
-				74D6240D1CF0C76F00ECAABA /* ViewController.h */,
-				74D6240E1CF0C76F00ECAABA /* ViewController.m */,
 				74D624101CF0C76F00ECAABA /* Main.storyboard */,
+				742164971CF59429002D5D7D /* HighScoreCell.h */,
+				742164981CF59429002D5D7D /* HighScoreCell.m */,
+				742164911CF47E82002D5D7D /* HighScoreController.h */,
+				742164921CF47E82002D5D7D /* HighScoreController.m */,
+				748F667E1CF20BFF00605C77 /* CollectionViewCell.h */,
+				748F667F1CF20BFF00605C77 /* CollectionViewCell.m */,
+				748F666D1CF0EAB800605C77 /* CollectionViewController.h */,
+				748F666E1CF0EAB800605C77 /* CollectionViewController.m */,
 				74D624131CF0C76F00ECAABA /* Assets.xcassets */,
 				74D624151CF0C76F00ECAABA /* LaunchScreen.storyboard */,
 				74D624181CF0C76F00ECAABA /* Info.plist */,
@@ -117,6 +157,16 @@
 		74D624071CF0C76F00ECAABA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				748F66811CF3174800605C77 /* card_bg.png */,
+				748F66821CF3174800605C77 /* colour1.png */,
+				748F66831CF3174800605C77 /* colour2.png */,
+				748F66841CF3174800605C77 /* colour3.png */,
+				748F66851CF3174800605C77 /* colour4.png */,
+				748F66861CF3174800605C77 /* colour5.png */,
+				748F66871CF3174800605C77 /* colour6.png */,
+				748F66881CF3174800605C77 /* colour7.png */,
+				748F66891CF3174800605C77 /* colour8.png */,
+				748F668A1CF3174800605C77 /* logo.png */,
 				74D624081CF0C76F00ECAABA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +293,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748F66941CF3174800605C77 /* logo.png in Resources */,
+				748F668D1CF3174800605C77 /* colour2.png in Resources */,
+				748F668B1CF3174800605C77 /* card_bg.png in Resources */,
 				74D624171CF0C76F00ECAABA /* LaunchScreen.storyboard in Resources */,
+				748F66901CF3174800605C77 /* colour5.png in Resources */,
+				748F66911CF3174800605C77 /* colour6.png in Resources */,
 				74D624141CF0C76F00ECAABA /* Assets.xcassets in Resources */,
+				748F66931CF3174800605C77 /* colour8.png in Resources */,
 				74D624121CF0C76F00ECAABA /* Main.storyboard in Resources */,
+				748F668C1CF3174800605C77 /* colour1.png in Resources */,
+				748F668F1CF3174800605C77 /* colour4.png in Resources */,
+				748F668E1CF3174800605C77 /* colour3.png in Resources */,
+				748F66921CF3174800605C77 /* colour7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D6240F1CF0C76F00ECAABA /* ViewController.m in Sources */,
 				74D6240C1CF0C76F00ECAABA /* AppDelegate.m in Sources */,
 				74D624091CF0C76F00ECAABA /* main.m in Sources */,
+				742164931CF47E82002D5D7D /* HighScoreController.m in Sources */,
+				748F66801CF20BFF00605C77 /* CollectionViewCell.m in Sources */,
+				748F666F1CF0EAB800605C77 /* CollectionViewController.m in Sources */,
+				742164991CF59429002D5D7D /* HighScoreCell.m in Sources */,
+				748F66971CF4540200605C77 /* CollectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +562,7 @@
 				74D624331CF0C76F00ECAABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74D624341CF0C76F00ECAABA /* Build configuration list for PBXNativeTarget "Colour MemoryTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +571,7 @@
 				74D624361CF0C76F00ECAABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74D624371CF0C76F00ECAABA /* Build configuration list for PBXNativeTarget "Colour MemoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +580,7 @@
 				74D624391CF0C76F00ECAABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
